@@ -6,10 +6,16 @@ import { useSelector } from "react-redux";
 
 const Notes = () => {
   const notes = useSelector((state) => state.notes);
+  const breakpointColumnsObj = {
+    default: 3,
+    1100: 2,
+    700: 1,
+    500: 1
+  };
   return (
-    <div className="container mx-auto mt-10">
+    <div className="container mx-4 mt-10">
       <Masonry
-        breakpointCols={3}
+        breakpointCols={breakpointColumnsObj}
         className="my-masonry-grid"
         columnClassName="my-masonry-grid_column"
       >

@@ -73,31 +73,31 @@ const ButtonGrp = ({ onStyleChange }) => {
           borderRadius: "10px",
         }}
       >
-        <button className="mx-2" type="button" onClick={handleAlignCenter}>
+        <button className="mx-1" type="button" onClick={handleAlignCenter}>
           <FormatAlignCenterIcon />
         </button>
-        <button className="mx-2" type="button" onClick={handleAlignLeft}>
+        <button className="mx-1" type="button" onClick={handleAlignLeft}>
           <FormatAlignLeftIcon />
         </button>
-        <button className="mx-2" type="button" onClick={handleAlignRight}>
+        <button className="mx-1" type="button" onClick={handleAlignRight}>
           <FormatAlignRightIcon />
         </button>
-        <button className="mx-2" type="button" onClick={handleAlignJustify}>
+        <button className="mx-1" type="button" onClick={handleAlignJustify}>
           <FormatAlignJustifyIcon />
         </button>
-        <button className="mx-2" type="button" onClick={handleToggleBold}>
+        <button className="mx-1" type="button" onClick={handleToggleBold}>
           <FormatBoldIcon />
         </button>
-        <button className="mx-2" type="button" onClick={handleToggleItalic}>
+        <button className="mx-1" type="button" onClick={handleToggleItalic}>
           <FormatItalicIcon />
         </button>
-        <button className="mx-2" type="button" onClick={handleToggleUnderline}>
+        <button className="mx-1" type="button" onClick={handleToggleUnderline}>
           <FormatUnderlinedIcon />
         </button>
-        <button className="mx-2" type="button" onClick={handleDecreaseFont}>
+        <button className="mx-1" type="button" onClick={handleDecreaseFont}>
           <TextDecreaseIcon />
         </button>
-        <button className="mx-2" type="button" onClick={handleIncreaseFont}>
+        <button className="mx-1" type="button" onClick={handleIncreaseFont}>
           <TextIncreaseIcon />
         </button>
       </div>

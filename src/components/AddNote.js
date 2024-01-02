@@ -73,7 +73,7 @@ const AddNote = ({ isEditing, initialData, onClose }) => {
           <div className="mb-4">
             <label
               htmlFor="noteTitle"
-              className="block text-sm font-medium text-gray-700"
+              className="block text-md text-start font-medium text-gray-700"
             >
               Title
             </label>
@@ -89,11 +89,11 @@ const AddNote = ({ isEditing, initialData, onClose }) => {
           <div className="mb-4">
             <label
               htmlFor="noteDescription"
-              className="block text-sm font-medium text-gray-700"
+              className="flex items-center text-md text-start font-medium text-gray-700"
             >
               Description
-            </label>
             <ButtonGrp onStyleChange={handleStyleChange} />
+            </label>
             <textarea
               id="noteDescription"
               name="noteDescription"

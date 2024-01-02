@@ -14,6 +14,11 @@ https://skillnotesapp.netlify.app/
 
   ![image](https://github.com/Mitushi-23/Skillstreet_notesApp/assets/83106116/324b6c7a-63ee-4fc3-82d3-dc8a2cb2d9bb)
 
+* Confirmation
+
+![image](https://github.com/Mitushi-23/Skillstreet_notesApp/assets/83106116/ce4c97ac-594f-4916-9eb8-518d1f25f3d9)
+
+
 # Installation
 
 1. Clone the repository
